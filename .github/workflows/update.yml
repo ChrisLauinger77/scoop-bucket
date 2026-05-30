@@ -27,7 +27,7 @@ jobs:
         run: |
           $env:PATH = "$env:USERPROFILE\scoop\shims;$env:PATH"
           scoop update
-          checkver qontrolpanel -u
+          scoop checkver qontrolpanel -u
 
       - name: Commit changes
         shell: pwsh
