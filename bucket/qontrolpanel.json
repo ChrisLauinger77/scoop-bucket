@@ -11,9 +11,7 @@
             "QontrolPanel"
         ]
     ],
-    "checkver": {
-        "github": "ChrisLauinger77/QontrolPanel"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/ChrisLauinger77/QontrolPanel/releases/download/$version/QontrolPanel_win64_msvc2022.zip"
     }
