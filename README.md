@@ -7,6 +7,7 @@ This is a personal [Scoop](https://scoop.sh/) bucket for Windows packages publis
 | App | Description |
 | --- | --- |
 | [QontrolPanel](https://github.com/ChrisLauinger77/QontrolPanel) | Enhanced audio panel for Windows with HeadsetControl integration. |
+| [ToeRings](https://github.com/ChrisLauinger77/toerings) | Transparent desktop system monitor built with Tauri. |
 
 ## Add This Bucket
 
@@ -14,10 +15,18 @@ This is a personal [Scoop](https://scoop.sh/) bucket for Windows packages publis
 scoop bucket add ChrisLauinger77 https://github.com/ChrisLauinger77/scoop-bucket
 ```
 
-## Install QontrolPanel
+## Install Apps
+
+Install QontrolPanel:
 
 ```powershell
 scoop install ChrisLauinger77/qontrolpanel
+```
+
+Install ToeRings:
+
+```powershell
+scoop install ChrisLauinger77/toerings
 ```
 
 ## Update
@@ -34,11 +43,23 @@ Update only QontrolPanel:
 scoop update qontrolpanel
 ```
 
+Update only ToeRings:
+
+```powershell
+scoop update toerings
+```
+
 ## QontrolPanel Scoop Support
 
 QontrolPanel includes Scoop support documentation in the main project README:
 
 https://github.com/ChrisLauinger77/QontrolPanel#scoop
+
+## ToeRings Scoop Support
+
+ToeRings releases include a portable ZIP and SHA-256 checksum for Scoop:
+
+https://github.com/ChrisLauinger77/toerings/releases
 
 ## License
 
