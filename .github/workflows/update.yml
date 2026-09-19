@@ -1,6 +1,8 @@
 name: Update Scoop manifests
 
 on:
+  repository_dispatch:
+    types: [update-scoop]
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
