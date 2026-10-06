@@ -6,6 +6,7 @@ This is a personal [Scoop](https://scoop.sh/) bucket for Windows packages publis
 
 | App | Description |
 | --- | --- |
+| [CodeConvoy](https://github.com/ChrisLauinger77/code-convoy) | Run one task across multiple repositories with the coding agent of your choice. |
 | [QontrolPanel](https://github.com/ChrisLauinger77/QontrolPanel) | Enhanced audio panel for Windows with HeadsetControl integration. |
 | [Stream GUI RS](https://github.com/ChrisLauinger77/stream-gui-rs) | Browse Twitch and watch streams through Streamlink. |
 | [ToeRings](https://github.com/ChrisLauinger77/toerings) | Transparent desktop system monitor built with Tauri. |
@@ -17,6 +18,14 @@ scoop bucket add ChrisLauinger77 https://github.com/ChrisLauinger77/scoop-bucket
 ```
 
 ## Install Apps
+
+Install CodeConvoy:
+
+```powershell
+scoop install ChrisLauinger77/code-convoy
+```
+
+Install Git and your chosen coding-agent CLI separately, and authenticate the agent before use.
 
 Install QontrolPanel:
 
@@ -46,6 +55,12 @@ Update Scoop and all installed apps:
 scoop update *
 ```
 
+Update only CodeConvoy:
+
+```powershell
+scoop update code-convoy
+```
+
 Update only QontrolPanel:
 
 ```powershell
@@ -63,6 +78,12 @@ Update only ToeRings:
 ```powershell
 scoop update toerings
 ```
+
+## CodeConvoy Scoop Support
+
+CodeConvoy releases include a portable ZIP and SHA-256 checksum for Scoop:
+
+https://github.com/ChrisLauinger77/code-convoy/releases
 
 ## QontrolPanel Scoop Support
 
